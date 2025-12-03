@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outreachoice | Strategic Cold Outreach Solutions</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configure Tailwind for custom styles and Inter font -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        // UPDATED: Deeper, professional blue for primary content
+                        'primary-dark': '#1E40AF', // Deep Blue
+                        // UPDATED: Brighter, energetic cyan/teal for accents and CTAs
+                        'accent-teal': '#06B6D4', // Bright Cyan/Teal
+                        'light-bg': '#F9FAFB', // Light Gray (Kept for contrast)
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+    </style>
+</head>
+<body class="font-sans bg-light-bg text-gray-800">
+
+    <!-- Navigation Bar -->
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <!-- Logo/Company Name -->
+            <div class="text-2xl font-extrabold text-primary-dark tracking-tight">
+                Outreach<span class="text-accent-teal">oice</span>
+            </div>
+            <!-- Desktop Navigation Links (Hidden on small screens) -->
+            <nav class="hidden md:flex space-x-8">
+                <a href="#services" class="text-gray-600 hover:text-accent-teal transition duration-300 font-medium">Services</a>
+                <a href="#approach" class="text-gray-600 hover:text-accent-teal transition duration-300 font-medium">Our Approach</a>
+                <a href="#results" class="text-gray-600 hover:text-accent-teal transition duration-300 font-medium">Results</a>
+                <a href="#contact" class="text-gray-600 hover:text-accent-teal transition duration-300 font-medium">Contact</a>
+            </nav>
+            <!-- CTA Button - Opens in new tab (target="_blank") -->
+            <a href="https://calendly.com/outreachoice/30min" target="_blank" class="hidden md:block bg-accent-teal text-white py-2 px-4 rounded-lg hover:bg-opacity-90 transition duration-300 shadow-lg font-semibold">
+                Start Growing
+            </a>
+            <!-- Mobile Menu Placeholder (Not implemented for brevity, but a common pattern) -->
+            <button class="md:hidden text-gray-600 hover:text-primary-dark focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-primary-dark text-white py-24 sm:py-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold leading-tight mb-6">
+                End-to-End <span class="text-accent-teal">Strategic</span> Cold Outreach
+            </h1>
+            <p class="text-xl sm:text-2xl mb-10 max-w-4xl mx-auto font-light">
+                We handle everything from ideal customer profiling to booked appointments, ensuring high-quality, scalable pipeline generation.
+            </p>
+            <!-- CTA Button - Opens in new tab (target="_blank") -->
+            <a href="https://calendly.com/outreachoice/30min" target="_blank" class="inline-block bg-accent-teal text-white text-xl py-4 px-10 rounded-xl font-bold shadow-2xl hover:bg-opacity-90 transform hover:scale-105 transition duration-300 ease-in-out">
+                Book Your Free Strategy Session
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 sm:py-28 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-16 text-primary-dark">
+                Our Full-Spectrum Outreach Solutions
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+                
+                <!-- Service Card 1 -->
+                <div class="bg-light-bg p-8 rounded-xl shadow-xl hover:shadow-2xl transition duration-300 border-t-4 border-accent-teal">
+                    <div class="text-4xl text-accent-teal mb-4">
+                        <!-- Icon: Strategy -->
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l2-2 2 2v13M9 19h10M9 19c0 1.105.895 2 2 2h2c1.105 0 2-.895 2-2M15 13H9"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-primary-dark">Targeting & Strategy</h3>
+                    <p class="text-gray-600">
+                        Deep ICP analysis, personalized messaging frameworks, and channel prioritization to ensure we speak directly to your ideal buyer.
+                    </p>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="bg-light-bg p-8 rounded-xl shadow-xl hover:shadow-2xl transition duration-300 border-t-4 border-primary-dark">
+                    <div class="text-4xl text-primary-dark mb-4">
+                        <!-- Icon: Data & Prospecting -->
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7L12 3l8 4M4 17h16"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-primary-dark">Data & Prospecting</h3>
+                    <p class="text-gray-600">
+                        Building hyper-targeted, verified lead lists. We focus on accuracy and relevance to maximize your connection rate.
+                    </p>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="bg-light-bg p-8 rounded-xl shadow-xl hover:shadow-2xl transition duration-300 border-t-4 border-accent-teal">
+                    <div class="text-4xl text-accent-teal mb-4">
+                        <!-- Icon: Execution -->
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c1.657 0 3 .895 3 2s-1.343 2-3 2v2m0-4c-1.657 0-3 .895-3 2s1.343 2 3 2h1M4 20h16a2 2 0 002-2V6a2 2 0 00-2-2H4a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-primary-dark">Campaign Execution</h3>
+                    <p class="text-gray-600">
+                        Multi-channel sequence deployment (Email, LinkedIn, Calls) managed with industry-leading delivery tools and warmed domains.
+                    </p>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="bg-light-bg p-8 rounded-xl shadow-xl hover:shadow-2xl transition duration-300 border-t-4 border-primary-dark">
+                    <div class="text-4xl text-primary-dark mb-4">
+                        <!-- Icon: Optimization -->
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-primary-dark">Optimization & Reporting</h3>
+                    <p class="text-gray-600">
+                        A/B testing, response analysis, and weekly performance reports to continuously boost conversion rates and ROI.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Approach Section -->
+    <section id="approach" class="py-20 sm:py-28 bg-light-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-16 text-primary-dark">
+                Your Path to Predictable Pipeline
+            </h2>
+            
+            <div class="relative max-w-5xl mx-auto">
+                <!-- Timeline/Process Steps -->
+                <div class="grid md:grid-cols-3 gap-12">
+                    <!-- Step 1 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="w-16 h-16 flex items-center justify-center rounded-full bg-accent-teal text-white text-3xl font-extrabold mb-4 shadow-lg">1</div>
+                        <h3 class="text-xl font-semibold mb-2 text-primary-dark">Discovery & Setup</h3>
+                        <p class="text-gray-600">We align on your revenue goals and ideal customer profile (ICP) to build the foundational strategy.</p>
+                    </div>
+                    
+                    <!-- Step 2 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="w-16 h-16 flex items-center justify-center rounded-full bg-primary-dark text-white text-3xl font-extrabold mb-4 shadow-lg">2</div>
+                        <h3 class="text-xl font-semibold mb-2 text-primary-dark">Launch & Iterate</h3>
+                        <p class="text-gray-600">Campaigns go live with multiple sequences. We continuously monitor and A/B test messaging.</p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="w-16 h-16 flex items-center justify-center rounded-full bg-accent-teal text-white text-3xl font-extrabold mb-4 shadow-lg">3</div>
+                        <h3 class="text-xl font-semibold mb-2 text-primary-dark">Conversion & Handoff</h3>
+                        <p class="text-gray-600">Qualified leads are passed directly to your sales team with full context for high-conversion closings.</p>
+                    </div>
+                </div>
+                
+                <!-- Simple Connector Line (Optional, but adds visual flow) -->
+                <div class="hidden md:block absolute top-8 left-1/4 right-1/4 h-1 bg-gray-300 -z-0 pointer-events-none"></div>
+                <div class="hidden md:block absolute top-8 left-1/2 right-1/4 h-1 bg-gray-300 -z-0 pointer-events-none"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results/Testimonials Section -->
+    <section id="results" class="py-20 sm:py-28 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-16 text-primary-dark">
+                Results That Speak for Themselves
+            </h2>
+            
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <!-- Stat 1 -->
+                <div class="text-center p-6 bg-light-bg rounded-xl shadow-lg border-b-4 border-accent-teal">
+                    <p class="text-5xl font-extrabold text-primary-dark">28%+</p>
+                    <p class="text-xl text-gray-600 mt-2">Average Positive Response Rate</p>
+                </div>
+                <!-- Stat 2 -->
+                <div class="text-center p-6 bg-light-bg rounded-xl shadow-lg border-b-4 border-primary-dark">
+                    <p class="text-5xl font-extrabold text-primary-dark">4.5x</p>
+                    <p class="text-xl text-gray-600 mt-2">Pipeline Value Generated</p>
+                </div>
+                <!-- Stat 3 -->
+                <div class="text-center p-6 bg-light-bg rounded-xl shadow-lg border-b-4 border-accent-teal">
+                    <p class="text-5xl font-extrabold text-primary-dark">92%</p>
+                    <p class="text-xl text-gray-600 mt-2">Client Retention Rate</p>
+                </div>
+            </div>
+
+            <!-- Testimonial -->
+            <div class="max-w-4xl mx-auto p-10 bg-primary-dark text-white rounded-xl shadow-2xl">
+                <blockquote class="text-xl italic mb-6">
+                    "Outreachoice completely transformed our sales pipeline. Their strategic approach meant we weren't just sending emails; we were starting meaningful conversations with decision-makers almost instantly. Best ROI we've seen in lead generation."
+                </blockquote>
+                <p class="text-lg font-semibold text-accent-teal">- Alex P., VP of Marketing at TechNova</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact/Final CTA Section -->
+    <section id="contact" class="py-20 sm:py-28 bg-light-bg">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-4 text-primary-dark">
+                Ready to Stop Guessing and Start Growing?
+            </h2>
+            <p class="text-xl text-gray-600 mb-10">
+                Book a 30-minute consultation now to discuss how a truly strategic cold outreach solution can deliver predictable, scalable revenue for your business.
+            </p>
+            
+            <!-- Calendly Link - Opens in new tab (target="_blank") -->
+            <div class="bg-white p-8 rounded-xl shadow-xl border-t-4 border-primary-dark">
+                <a href="https://calendly.com/outreachoice/30min" target="_blank" class="inline-block w-full bg-accent-teal text-white text-lg py-3 rounded-lg font-bold hover:bg-opacity-90 transition duration-300 shadow-lg transform hover:scale-[1.01]">
+                    Schedule My Strategy Session
+                </a>
+                <p class="text-sm text-gray-500 mt-4">Opens in a new window.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8 border-b border-gray-700 pb-8 mb-8">
+                <!-- Brand Info -->
+                <div>
+                    <div class="text-2xl font-extrabold text-white tracking-tight mb-2">
+                        Outreach<span class="text-accent-teal">oice</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Strategic Cold Outreach Solutions.</p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-3 text-accent-teal">Quick Links</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition duration-200">Services</a></li>
+                        <li><a href="#approach" class="text-gray-400 hover:text-white transition duration-200">Our Process</a></li>
+                        <li><a href="#results" class="text-gray-400 hover:text-white transition duration-200">Success Stories</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-3 text-accent-teal">Contact Us</h4>
+                    <p class="text-gray-400 text-sm">Email: outreachoice@gmail.com</p>
+                    <p class="text-gray-400 text-sm">Phone: +8801601900996</p>
+                </div>
+            </div>
+            
+            <div class="text-center text-gray-500 text-sm">
+                &copy; <script>document.write(new Date().getFullYear())</script> Outreachoice. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
